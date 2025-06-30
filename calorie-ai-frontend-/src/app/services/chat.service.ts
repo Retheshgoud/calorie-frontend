@@ -22,7 +22,7 @@ export interface ChatResponse {
   providedIn: 'root'
 })
 export class ChatService {
-  private readonly API_BASE_URL = 'http://localhost:7000'; // Update this to your backend URL
+  private readonly API_BASE_URL = 'https://calorie-api-ybzv.onrender.com'; // Update this to your backend URL
 
   constructor(private http: HttpClient) {}
 
